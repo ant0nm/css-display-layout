@@ -1,0 +1,85 @@
+*, html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+::before, ::after {
+  box-sizing: inherit;
+}
+
+header, nav, footer {
+  color: white;
+}
+
+header {
+  background-color: rgb(50,50,50);
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+
+h2 {
+  margin: 5px auto;
+}
+
+nav {
+  margin: 0 auto 10px;
+  text-align: center;
+}
+
+main {
+  margin: 0 2%;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 1px;
+  margin: 15px 0 0 0;
+}
+#copyright {
+  font-size: 14px;
+  margin: 10px auto;
+}
+
+#summary {
+  background-color: aquamarine;
+  padding: 12px 7px;
+}
+
+#photos {
+  margin: 10px 0 0 0;
+}
+
+.photo {
+  display: inline-block;
+  width: 32%;
+}
+
+.action {
+  text-align: center;
+  background-color: yellow;
+}
+
+#summary > p {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+
+#num_of_photos {
+  color: black;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+.tab {
+  display: inline-block;
+  font-weight: 800;
+  background-color: lightgrey;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
