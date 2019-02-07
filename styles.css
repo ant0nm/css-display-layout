@@ -49,10 +49,16 @@ footer {
 
 #photos_1, #photos_2 {
   margin: 10px 0;
+  text-align: center;
 }
 
 .photo {
   display: inline-block;
+  width: 32.6%;
+}
+
+img {
+  width: 100%;
 }
 
 .action {
